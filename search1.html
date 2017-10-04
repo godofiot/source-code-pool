@@ -1,0 +1,188 @@
+<HTML>
+<HEAD>
+<TITLE>
+National Water Company - Avaya Logging System (revised 1.0)
+</TITLE>
+<META NAME="author" CONTENT="">
+</HEAD>
+<BODY>
+<H1>National Water Company - Avaya Logging System</H1>
+<H2>Query Page</H2>
+From the dropdown list you can select specific query for your requirements.. otherwise leave it as select all "All" or wildcard.
+<HR>
+<FORM ACTION="report4.php" METHOD="POST"/>
+
+Call Type:&nbsp;&nbsp;&nbsp;
+<select name="calltype">
+<option value="%%">All</option>
+<option value="mobile">Mobile</option>
+<option value="telephone">Telephone</option>
+</select>
+&nbsp;&nbsp;&nbsp;
+Site Name:&nbsp;&nbsp;&nbsp;
+<select name="sitename">
+<option value="%%">All</option>
+<option value="riyadh">Riyadh</option>
+<option value="jeddah">Jeddah</option>
+<option value="makkah">Makkah</option>
+<option value="taif">Taif</option>
+<option value="allsite">AllSite</option>
+<option value="others">Others</option>
+</select>
+</br></br>
+Year:&nbsp;&nbsp;&nbsp;
+<select name="yyyy">
+<option value="14">2014</option>
+<option value="15">2015</option>
+<option value="16">2016</option>
+<option value="17" selected="selected" >2017</option>
+<option value="18">2018</option>
+<option value="19">2019</option>
+<option value="20">2020</option>
+<option value="18">2021</option>
+<option value="19">2022</option>
+<option value="20">2023</option>
+<option value="18">2014</option>
+<option value="19">2025</option>
+<option value="20">2026</option>
+</select>
+
+&nbsp;&nbsp;&nbsp;
+Month:&nbsp;&nbsp;&nbsp;
+<select name="mo">
+<option value="%%">All</option>
+<option value="1">Jan</option>
+<option value="2">Feb</option>
+<option value="3">Mar</option>
+<option value="4">Apr</option>
+<option value="5">May</option>
+<option value="6">Jun</option>
+<option value="7">Jul</option>
+<option value="8">Aug</option>
+<option value="9">Sep</option>
+<option value="10">Oct</option>
+<option value="11">Nov</option>
+<option value="12">Dec</option>
+</select>
+&nbsp;&nbsp;&nbsp;
+Day:&nbsp;&nbsp;&nbsp;
+<select name="dd">
+<option value="%%">All</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+&nbsp;&nbsp;&nbsp;
+Weekly:&nbsp;&nbsp;&nbsp;
+<select name="week">
+<option value="%%">All</option>
+<option value=1>Week 1</option>
+<option value=2>Week 2</option>
+<option value=3>Week 3</option>
+<option value=4>Week 4</option>
+</select>
+</br></br>
+
+(Optional) Time Hour/ From:&nbsp;&nbsp;&nbsp;
+<select name="hour1">
+<option value="%%">All</option>
+<option value=1>01am</option>
+<option value=2>02am</option>
+<option value=3>03am</option>
+<option value=4>04am</option>
+<option value=5>05am</option>
+<option value=6>06am</option>
+<option value=7>07am</option>
+<option value=8>08am</option>
+<option value=9>09am</option>
+<option value=10>10am</option>
+<option value=11>11am</option>
+<option value=12>12pm</option>
+<option value=13>01pm</option>
+<option value=14>02pm</option>
+<option value=15>03pm</option>
+<option value=16>04pm</option>
+<option value=17>05pm</option>
+<option value=18>06pm</option>
+<option value=19>07pm</option>
+<option value=20>08pm</option>
+<option value=21>09pm</option>
+<option value=22>10pm</option>
+<option value=23>11pm</option>
+<option value=0>00am</option>
+</select>
+&nbsp;&nbsp;&nbsp;
+To:&nbsp;&nbsp;&nbsp;
+<select name="hour2">
+<option value="%%">All</option>
+<option value=1>01am</option>
+<option value=2>02am</option>
+<option value=3>03am</option>
+<option value=4>04am</option>
+<option value=5>05am</option>
+<option value=6>06am</option>
+<option value=7>07am</option>
+<option value=8>08am</option>
+<option value=9>09am</option>
+<option value=10>10am</option>
+<option value=11>11am</option>
+<option value=12>12pm</option>
+<option value=13>01pm</option>
+<option value=14>02pm</option>
+<option value=15>03pm</option>
+<option value=16>04pm</option>
+<option value=17>05pm</option>
+<option value=18>06pm</option>
+<option value=19>07pm</option>
+<option value=20>08pm</option>
+<option value=21>09pm</option>
+<option value=22>10pm</option>
+<option value=23>11pm</option>
+</select>
+
+
+
+<BR>
+<BR>
+<INPUT TYPE="SUBMIT" Value="Run Query"/>
+<INPUT TYPE="RESET" Value="Reset"/>
+</FORM>
+
+
+<h3 align="center"><a href="report5.php">Open Report</a></h3>
+
+
+
+
+
+</BODY>
+<h6 align="center" >Developed by Rolly Falco Villacacan | All Rights Reserved</h6>
+</HTML>
